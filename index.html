@@ -1,0 +1,21 @@
+---
+layout: default
+title: Sebastian Appelberg
+subtitle: Random musings about random things
+---
+
+{%- if site.posts.size > 0 -%}
+<ul class="post-list">
+    {%- assign date_format = site.date_format | default: "%b %-d, %Y" -%}
+    {%- for post in site.posts -%}
+    <li>
+        <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+        <span class="post-meta">{{ post.date | date: date_format }}</span>
+        <br>
+        <span>{{ post.description }}</span>
+    </li>
+    {%- endfor -%}
+</ul>
+
+{%- endif -%}
+

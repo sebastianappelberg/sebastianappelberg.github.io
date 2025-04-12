@@ -1,0 +1,9 @@
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
+.idea
+_posts/2000-01-01-dev.markdown
+# Ignored since Github Pages is used.
+Gemfile.lock
