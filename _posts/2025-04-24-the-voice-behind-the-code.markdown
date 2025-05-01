@@ -3,6 +3,7 @@ layout: post
 title: The Voice Behind the Code
 subtitle: 2025-04-24
 description: Every creation has imprints of its creator.
+category: draft
 ---
 
 Every creation has imprints of its creator.

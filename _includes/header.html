@@ -3,6 +3,9 @@
         <h1 class="page-title">{{ page.title }}</h1>
         <div class="page-description">
             {{ page.subtitle }}
+            {%- if page.category == "draft" -%}
+            <span> (draft)</span>
+            {%- endif -%}
         </div>
     </div>
 </header>
