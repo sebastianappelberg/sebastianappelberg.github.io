@@ -1,6 +1,12 @@
 <footer>
     <div class="wrapper">
         <div class="site-footer">
+            {%- if page.discussionUrl -%}
+            <a href="{{ page.discussionUrl }}">
+                discuss
+            </a>
+            <br>
+            {%- endif -%}
             <a href="/">
                 home
             </a>
